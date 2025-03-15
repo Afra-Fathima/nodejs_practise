@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGO_CONNECTION_STRING)
 
 .then(()=>
 {
-  console.log('connected to mongo db');
+  console.log('connected to mongodb');
 })
 .catch((err)=>
 {
